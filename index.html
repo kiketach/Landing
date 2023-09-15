@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/img/Sin Fondo Black.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+  <title>Colombia Network 10</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- CABECERA -->
+  <header class="header-landing">
+    <div class="wrap-logo">
+      <img src="/img/Sin Fondo Black.png" alt="" class="logo-header">
+    </div>
+  </header>
+    <!-- BANNER PRINCIPAL -->
+  <section class="hero-section">
+    <div class="wrap-hero-section">
+      <h1>¿Quieres un equilibrio entre trabajo y vida personal?</h1>
+      <p>¿Eres un apasionado de las ventas y buscas independencia?</p>
+      <div class="wrap-cta">
+        <a href="#contactanos" class="cta-a">Contactanos!</a>
+      </div>
+    </div>
+  </section>
+    <!-- IMAGENES VARIAS -->
+  <section class="section logos-section">
+    <div class="wrap-logos-section">
+      <img src="img/Sin Fondo Black.png" alt="" class="logo-brand">
+      <img src="img/Sin Fondo Black.png" alt="" class="logo-brand">
+      <img src="img/Sin Fondo Black.png" alt="" class="logo-brand">
+      <img src="img/Sin Fondo Black.png" alt="" class="logo-brand">
+    </div>
+  </section>
+    <!-- TESTIMONIOS -->
+  <section class="section servicios-section">
+    <div class="wrap-title-section" id="testimonios">
+      <h2>Algunos Testimonios... </h2>
+    </div>
+        <!-- VIDEO 1 -->
+    <div class="wrap-servicios-section">
+      <div class="item-servicios-section">
+        <video src="/img/Lizarazo.mp4" controls></video>
+          <p>Emmanuel. Sede Cucuta</p>
+      </div>
+        <!-- VIDEO 2 -->
+      <div class="item-servicios-section">
+        <video src="/img/Yasmin.mp4" controls></video>
+          <p>Yasmin. Sede Bogotá</p>
+    </div>
+        <!-- VIDEO 3 -->
+    <div class="item-servicios-section">
+        <video src="/img/Yasmin.mp4" controls></video>
+          <p>Yasmin. Sede Bogotá</p>
+    </div>  
+    </div>
+  </section>
+     <!-- VALORES -->
+  <section class="section two-column-section" id="valores">
+    <div class="wrap-title-section">
+      <h2>Algunos Valores que nos representan</h2>
+    </div>
+        <!-- CARD 1 -->
+    <div class="wrap-two-column">
+      <div class="wrap-img_two-column">
+        <img src="/img/salud.png" alt="">
+      </div>
+      <div class="wrap-img_two-column">
+        <div class="wrap-text-column">
+          <h3>Salud y el bienestar</h3>
+          <p>Valoramos el bienestar nuestros asesores como de nuestros clientes, promoviendo productos que son beneficiosos para la salud.</p>
+        </div>
+      </div>
+        <!-- CARD 2 -->
+      <div class="wrap-img_two-column">
+        <img src=" " alt="">
+      </div>
+      <div class="wrap-img_two-column">
+        <div class="wrap-text-column">
+          <h3>Calidad 50 años</h3>
+          <p>Destacamos la importancia de la excelencia en la producción y presentación de productos. También ofrecemos una garantía de 50 años en todos nuestros productos</p>
+        </div>
+      </div>
+        <!-- CARD 3 -->
+      <div class="wrap-img_two-column">
+        <img src="img/disenador-trabajando.jpeg" alt="">
+      </div>
+      <div class="wrap-img_two-column">
+        <div class="wrap-text-column">
+          <h3>Etica</h3>
+          <p>Promovemos una cultura de ética donde tenemos claros  los comportamientos que son aceptables y cuáles no, siendo transparentes con el cliente.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+ <!--  FORMULARIO -->
+  <section class="section two-column-section form" id="contacto">
+    <div class="wrap-title-section">
+      <h2>Formulario de Contacto</h2>
+    </div>
+    <div class="wrap-two-column">
+      <div class="wrap-img_two-column">
+        <div class="wrap-text-column">
+          <h3 id="contactanos">Contacta con nosotros</h3>
+          <form action="procesar_formulario.php" method="post" class="form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" required="">
+            <br><br>
+            <label for="asunto">Asunto:</label>
+            <input type="text" name="asunto" id="asunto" required="">
+            <br><br>
+            <label for="mensaje">Mensaje:</label>
+            <br>
+            <textarea name="mensaje" id="mensaje" rows="4" cols="40" required=""></textarea>
+            <br><br>
+            <input type="submit" value="Enviar" class="cta-a">
+          </form>
+        </div>
+      </div>
+       <!--  LOGO FORMULARIO -->
+      <div class="wrap-img_two-column">
+        <img src="img/Sin Fondo Black.png" alt="">
+      </div>
+    </div>
+  </section>
+     <!-- BOTON WHATSAPP -->
+  <div class="nav-bottom">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <div class="popup-whatsapp fadeIn">
+      <div class="content-whatsapp -top">
+        <button type="button" class="closePopup">
+          <i class="material-icons icon-font-color">close</i>
+        </button>
+        <p>
+          <img src="/img/Sin Fondo Black.png" width="50" /> Hola, ¿en que podemos
+          ayudarle?
+        </p>
+      </div>
+      <div class="content-whatsapp -bottom">
+        <input
+          class="whats-input"
+          id="whats-in"
+          type="text"
+          placeholder="Enviar mensaje..."
+        />
+        <button class="send-msPopup" id="send-btn" type="button">
+          <i class="material-icons icon-font-color--black">send</i>
+        </button>
+      </div>
+    </div>
+    <button type="button" id="whats-openPopup" class="whatsapp-button">
+      <div class="float">
+        <i class="fa fa-whatsapp my-float"></i>
+      </div>
+    </button>
+    <div class="circle-anime"></div>
+  </div>
+    <!-- FOOTER -->
+  <footer class="footer-section">
+    <div class="wrap-footer-section">
+      <div class="wrap-social-logos">
+        <ul>
+          <li>
+            <a href="">
+              <img src="img/facebook.svg" alt="" class="social-logo">
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="img/twitter.svg" alt="" class="social-logo">
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="img/youtube.svg" alt="" class="social-logo">
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="img/instagram.svg" alt="" class="social-logo">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="menu-footer-section">
+      <div class="wrap-menu-footer-section">
+        <ul>
+          <li><a href="/">Inicio</a></li>
+          <li><a href="#testimonios">Testimonios</a></li>
+          <li><a href="#valores">Valores</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="menu-footer-section">
+      <div class="footer-creds">
+        <p>©copytight 2023 - DreamDevelopers - Todos los derechos reservados.</p>
+      </div>
+    </div>
+
+  </footer>
+<script src="index.js"></script>
+</body>
+</html>
