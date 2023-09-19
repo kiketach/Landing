@@ -496,13 +496,13 @@ body {
 }
 
 /* Consulta de medios para pantallas más pequeñas */
-@media (max-width: 768px) {
+@media (max-width: 400px) {
   body {
     font-size: 14px;
   }
   .wrap-hero-section {
     padding: 5%;
-    max-width: 100%;
+    max-width: 500%;
     text-align: center;
   }
   .banner {
