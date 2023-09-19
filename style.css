@@ -1,6 +1,6 @@
 :root{
     --main-c:#fdd72d;
-    --border-r:.2rem;
+    --border-r:.5rem;
   }
   
   /** Estilos Generales **/
@@ -36,6 +36,11 @@
     padding: .5rem 1rem;
     border-radius: var(--border-r);
   }
+  .cta-a:hover{
+    color: #100707;
+    font-weight: bold;
+    background-color:#c9c5c5;
+  }
   
   h1{
     font-size: 2.8rem;
@@ -62,25 +67,25 @@
   }
   
   /** Seccion del Banner **/
-  
   .hero-section{
-    height: 90vh;
-    background: url(img/banner1.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgba(106, 141, 163, 0.7);
-    background-blend-mode: multiply;
+    max-height: 90vh;
+    background-color: #9da19f;
+    background-blend-mode:multiply;
     display: flex;
     align-items: center;
   }
-  
   .wrap-hero-section{
-    max-width: 600px;
+    max-width: 50%;
+    min-width: 20%;
     color: #fff;
-    padding: 15%;
+    padding: 10%;
   }
-  
+  .banner{
+    max-width: 50%;
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size:contain;
+  }
   /** Logo Section **/ 
   .section h2{
     padding: 2rem 0;
@@ -454,4 +459,34 @@ input.whats-input[type=text]:focus {
 
 .icon-font-color--black {
   color: #333333;
+}
+
+ /* Custom styles for the cards */
+.carta{
+  padding-top: 40px;
+}
+
+.card-img-top {
+  max-width: 150px;
+  margin: 0 auto;
+}
+.card-text {
+  padding: 15px;
+}
+
+/*Acordeon*/
+.acordeon{
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px 30px 0px;
+}
+.card-acordeon{
+  width: 70rem;
+}
+.accordion-button{
+  font-weight: bolder;
+}
+.accordion-button:hover{
+  background-color: var(--main-c);
 }
