@@ -496,7 +496,7 @@ body {
 }
 
 /* Consulta de medios para pantallas más pequeñas */
-@media (max-width: 400px) {
+@media (max-width: 300px) {
   body {
     font-size: 14px;
   }
