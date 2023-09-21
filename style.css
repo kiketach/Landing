@@ -494,12 +494,12 @@ input.whats-input[type=text]:focus {
 /* Consulta de medios para pantallas más pequeñas */
 @media (max-width: 300px) {
   .wrap-hero-section {
-    padding:10%;
+    padding: 5%;
     max-width: 60%;
     text-align: center;
   }
   .banner {
-    max-width: 40%;
+    max-width: 500%;
     background-position: center; 
   }
 }
