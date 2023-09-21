@@ -75,8 +75,8 @@
     align-items: center;
   }
   .wrap-hero-section{
-    max-width: 50%;
-    min-width: 30%;
+    max-width: 60%;
+    min-width: 20%;
     color: #fff;
     padding: 10%;
   }
@@ -570,6 +570,6 @@ body {
 }
 @media (max-width: 768px) {
   .wrap-hero-section {
-    max-width: 10%; /* Reducimos aún más el ancho máximo */
+    max-width: 30%; /* Reducimos aún más el ancho máximo */
   }
 }
