@@ -506,7 +506,7 @@ input.whats-input[type=text]:focus {
 /* Consulta de medios para pantallas más pequeñas aún */
 @media (max-width: 576px) {
   h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   h2 {
     font-size: 0.8rem;
