@@ -568,3 +568,8 @@ body {
     margin: 1rem 0;
   }
 }
+@media (max-width: 768px) {
+  .wrap-hero-section {
+    max-width: 60%; /* Reducimos aún más el ancho máximo */
+  }
+}
