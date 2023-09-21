@@ -490,19 +490,12 @@ input.whats-input[type=text]:focus {
 .accordion-button:hover{
   background-color: var(--main-c);
 }
-/* Estilos Generales */
-body {
-  font-size: 16px;
-}
 
 /* Consulta de medios para pantallas más pequeñas */
 @media (max-width: 300px) {
-  body {
-    font-size: 14px;
-  }
   .wrap-hero-section {
     padding: 5%;
-    max-width: 500%;
+    max-width: 60%;
     text-align: center;
   }
   .banner {
@@ -510,20 +503,19 @@ body {
     background-position: center;
   }
 }
-
 /* Consulta de medios para pantallas más pequeñas aún */
 @media (max-width: 576px) {
   h1 {
-    font-size: 2rem;
+    font-size: 1rem;
   }
   h2 {
-    font-size: 1.8rem;
+    font-size: 0.8rem;
   }
   h3 {
-    font-size: 1.6rem;
+    font-size: 0.6rem;
   }
   .wrap-hero-section {
-    padding: 10%;
+    padding: 5%;
   }
   .cta-a {
     font-size: 1rem;
@@ -568,8 +560,4 @@ body {
     margin: 1rem 0;
   }
 }
-@media (max-width: 768px) {
-  .wrap-hero-section {
-    max-width: 60%; /* Reducimos aún más el ancho máximo */
-  }
-}
+
