@@ -492,7 +492,7 @@ input.whats-input[type=text]:focus {
 }
 
 /* Consulta de medios para pantallas más pequeñas */
-@media (max-width: 300px) {
+@media (max-width: 200px) {
   .wrap-hero-section {
     padding: 5%;
     max-width: 50%;
