@@ -562,7 +562,7 @@ input.whats-input[type=text]:focus {
 }
 @media (max-width: 576px) {
   .banner {
-    max-width: 100%; /* Adjust the width as needed */
+    max-width: 60%; /* Adjust the width as needed */
     height: auto; /* Maintain the aspect ratio */
   }
 }
