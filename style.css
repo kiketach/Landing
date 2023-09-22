@@ -495,7 +495,7 @@ input.whats-input[type=text]:focus {
 @media (max-width: 300px) {
   .wrap-hero-section {
     padding: 5%;
-    max-width: 60%;
+    max-width: 50%;
     text-align: center;
   }
   .banner {
@@ -515,7 +515,7 @@ input.whats-input[type=text]:focus {
     font-size: 0.6rem;
   }
   .wrap-hero-section {
-    padding: 5%;
+    padding: 3%;
   }
   .cta-a {
     font-size: 0.9rem;
@@ -557,12 +557,12 @@ input.whats-input[type=text]:focus {
 /* Consulta de medios para pantallas muy pequeñas */
 @media (max-width: 576px) {
   .wrap-title-section {
-    margin: 1rem 0;
+    margin: 0.8rem 0;
   }
 }
 @media (max-width: 576px) {
   .banner {
-    max-width: 60%; /* Adjust the width as needed */
+    max-width: 55%; /* Adjust the width as needed */
     height: auto; /* Maintain the aspect ratio */
   }
 }
