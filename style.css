@@ -495,11 +495,11 @@ input.whats-input[type=text]:focus {
 @media (max-width: 200px) {
   .wrap-hero-section {
     padding: 5%;
-    max-width: 50%;
+    max-width: 100%;
     text-align: center;
   }
   .banner {
-    max-width: 500%;
+    max-width: 300%;
     background-position: center; 
   }
 }
@@ -515,7 +515,7 @@ input.whats-input[type=text]:focus {
     font-size: 0.6rem;
   }
   .wrap-hero-section {
-    padding: 3%;
+    padding: 0%;
   }
   .cta-a {
     font-size: 0.9rem;
