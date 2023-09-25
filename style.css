@@ -191,9 +191,50 @@
     display: inline;
     cursor: pointer;
   }
-  
+
+  /** Google maps**/
+  .container-google-maps {
+    display: flex;
+    align-items: center;
+    margin: 2% 2%;
+  }
+  /* Estilos para la imagen */
+  .image-maps {
+    width: 680px;
+    height: auto;
+  }
+  .info {
+    margin-left: 20px;
+    margin: 2%;
+  }
+span a {
+  content: "https://www.google.com/maps?q=Av.%201%20de%20mayo%20%2337a%20-%2031"; 
+  cursor: pointer;
+  color: blue;
+  text-decoration: none;
+}
+
+/* Cambia el color del enlace cuando el cursor está encima */
+span a:hover {
+  color: red; /* Cambia el color a rojo cuando se pasa el ratón por encima */
+}
+  /* Media Queries para pantallas más pequeñas (ejemplo) */
+@media screen and (max-width: 768px) {
+  .container-google-maps {
+    flex-direction: column; /* Cambia a disposición vertical */
+    text-align: center; /* Centra el contenido */
+  }
+
+  .image-maps {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+  }
+
+  .info {
+    margin-left: 0; /* Elimina el margen izquierdo */
+  }
+}
+
   /** Footer **/
-  
   .footer-section{
     max-width: 1200px;
     margin: 0 auto;
