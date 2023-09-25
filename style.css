@@ -226,7 +226,7 @@ span a:hover {
   }
 
   .image-maps {
-    width: 100%; /* Ocupa todo el ancho del contenedor */
+    width: 30%; /* Ocupa todo el ancho del contenedor */
   }
 
   .info {
@@ -538,6 +538,7 @@ input.whats-input[type=text]:focus {
     padding: 5%;
     max-width: 100%;
     text-align: center;
+    margin: 0% 2%;
   }
   .banner {
     max-width: 300%;
