@@ -167,31 +167,6 @@
     padding-bottom: 1rem;
   }
   
-  /** Formulario **/
-  
-  section.two-column-section.form{
-    background-color: #f2f2f2;
-    padding: 3rem 0;
-  }
-  
-  .form input, .form textarea{
-    display: flex;
-    width: 100%;
-    line-height: 1.75rem;
-    border: 1.5px solid #fff;
-    border-radius: var(--border-r);
-  }
-  
-  .form textarea{
-    min-height: 200px;
-  }
-  
-  input[type="submit"]{
-    border: 0;
-    display: inline;
-    cursor: pointer;
-  }
-
   /** Google maps**/
   .container-google-maps {
     display: flex;
